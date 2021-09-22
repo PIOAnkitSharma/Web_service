@@ -30,8 +30,6 @@
             varChar(responseHttpHeader,10000) INTO :MSG,:HEAD
             from Table(Systools.HttpPostClobVerbose(
             Trim(:URL),
-          //Trim('<httpHeader><header name="Content-Type" value="text/plain">+
-          //      </header></httpHeader>'),
             Trim(:Head1),
             Trim('188,ankit,33,12345')));
 
