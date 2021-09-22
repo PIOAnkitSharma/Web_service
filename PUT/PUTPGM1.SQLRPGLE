@@ -20,7 +20,7 @@
           URL = 'https://gorest.co.in/public/v1/comments,'+%TRIM(IDC);
           AUTH = 'f392ec33532dd36c769a3455be52151d8dcbebc'+
                  '2d2545244645c52818bdb6207';
-       HEADER ='<httpHeader><header name="Content-Type" value="text/plain">'+
+       HEADER ='<httpHeader><header name="Content-Type" value="application/json">'+
                   '</header><header name="Authorization" '+
                   'value="Bearer '+%trim(auth)+
                    '"></header></httpHeader>';
